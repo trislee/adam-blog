@@ -10,6 +10,7 @@ tags: [Anti-fascism, Fascist Forge]
 *This is the second post in a series focusing on the collection and analysis of data from a militant neo-Nazi website, [FascistForge.com][ff]. You can see the first installment [here][fascist-forge-scraping]*
 
 Just like how Facebook allows its users to "react" to posts and comments using emojis, Fascist Forge (FF) allows its users to do the same, except that all of the FF emojis are Nazi-related.
+I've listed them below, and included explanations for the more obscure:
 
 <div>
   <img style="vertical-align:middle" src="/assets/img/posts/2019-09-07-fascist-forge-reactions/like.png" alt='like' width='100'>
@@ -88,7 +89,7 @@ The steps for generating the visualization were:
 3. Format data into a structure HoloViews can understand
 4. Initialize Graph using HoloViews, save html file using Bokeh backend.
 
-Here's the code I used for step 3, in which ``edf`` and ``ndf`` are DataFrames containing edge and node data respectively, and ``'log degree'`` is a column in the node DataFrame containing the base-10 log of the sum of likes given and likes received:
+Here's the code I used for step 3, in which ``edf`` and ``ndf`` are DataFrames containing edge and node data respectively, and ``'log degree'`` is a column in the node DataFrame containing the base-10 logarithm of the sum of likes given and likes received:
 
 {% highlight python %}
 import holoviews as hv

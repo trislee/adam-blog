@@ -59,7 +59,7 @@ The next step is some ugly code to coalesce the census data contained in ``tract
 
 | [![White](/assets/img/posts/2019-08-17-seattle-schools/white.svg)](/assets/img/posts/2019-08-17-seattle-schools/white.svg)  | [![Black](/assets/img/posts/2019-08-17-seattle-schools/black.svg)](/assets/img/posts/2019-08-17-seattle-schools/black.svg) | [![Asian](/assets/img/posts/2019-08-17-seattle-schools/asian.svg)](/assets/img/posts/2019-08-17-seattle-schools/asian.svg) |
 |:---:|:---:|:---:|
-| White | Black | Asian |
+| *White* | *Black* | *Asian* |
 
 Now that we have block-level demographic data organized nicely in a GeoDataFrame, the next step is to determine which blocks are included in a given school's attendance area boundary. We first download and extract the [attendance area boundaries][boundary-shapefiles]. An important attribute of a shapefile is its [coordinate reference system][crs] (CRS), which specifies how coordinates on a spherical surface are projected onto a flat surface. These CRS are often represented as *proj4* strings, such as the following, which is a nice Seattle-centered projection:
 {% highlight python %}
@@ -93,7 +93,7 @@ We can plot the blocks, colored by containing school, along with the assignment 
 
 | [![Elementary School Map](/assets/img/posts/2019-08-17-seattle-schools/blocks_by_geozone_ES.svg)](/assets/img/posts/2019-08-17-seattle-schools/blocks_by_geozone_ES.svg)  | [![Middle School Map](/assets/img/posts/2019-08-17-seattle-schools/blocks_by_geozone_MS.svg)](/assets/img/posts/2019-08-17-seattle-schools/blocks_by_geozone_MS.svg) | [![High School Map](/assets/img/posts/2019-08-17-seattle-schools/blocks_by_geozone_HS.svg)](/assets/img/posts/2019-08-17-seattle-schools/blocks_by_geozone_HS.svg) |
 |:---:|:---:|:---:|
-| Elementary School | Middle School | High School |
+| *Elementary School* | *Middle School* | *High School* |
 
 The last step is to calculate the average population for the contained blocks for each school, for each race.
 {% highlight python %}
@@ -115,7 +115,7 @@ Finally we can plot the demographic data by school, as shown below:
 
 | [![Elementary School Demographics](/assets/img/posts/2019-08-17-seattle-schools/demographics_by_school_geozone_ES.svg)](/assets/img/posts/2019-08-17-seattle-schools/demographics_by_school_geozone_ES.svg)  | [![Middle School Demographics](/assets/img/posts/2019-08-17-seattle-schools/demographics_by_school_geozone_MS.svg)](/assets/img/posts/2019-08-17-seattle-schools/demographics_by_school_geozone_MS.svg)  | [![High School Demographics](/assets/img/posts/2019-08-17-seattle-schools/demographics_by_school_geozone_HS.svg)](/assets/img/posts/2019-08-17-seattle-schools/demographics_by_school_geozone_HS.svg) | [![High School Demographics](/assets/img/posts/2019-08-17-seattle-schools/demographics_by_school_legend.svg)](/assets/img/posts/2019-08-17-seattle-schools/demographics_by_school_legend.svg)
 |:---:|:---:|:---:|:---:|
-| Elementary School | Middle School | High School |  |
+| *Elementary School* | *Middle School* | *High School* |  |
 
 [assignment-plan]: https://www.seattleschools.org/UserFiles/Servers/Server_543/File/District/Departments/Enrollment%20Planning/Student%20Assignment%20Plan/New%20Student%20Assignment%20Plan.pdf
 [census-blocks-download]: http://data-seattlecitygis.opendata.arcgis.com/datasets/38105e262d9441b59b2dde020cb02b40_13.zip

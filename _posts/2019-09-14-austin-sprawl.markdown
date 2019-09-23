@@ -9,9 +9,9 @@ tags: [Geospatial, Austin]
 
 This post is similar to my [previous post][austin-crime]: a quick visualization of a large geospatial dataset provided by the City of Austin.
 This time I'm looking at Austin's permit data over the last 38 years.
-You can download the dataset [here][permit-dataset], it has nearly 2 million rows, 68 columns.
-You can find the script I used to generate the visualizations in this post [here][script]
-We're only really interested in the latitude, longitude, and year, so we read in the data from the CSV file we download:
+You can download the dataset [here][permit-dataset], it has nearly 2 million rows and 68 columns.
+You can find the script I used to generate the visualizations in this post [here][script].
+We're only really interested in the latitude, longitude, year, and permit type, so we read in the data from the CSV file we download and extract the relevant columns:
 
 {% highlight python %}
 import pandas as pd
@@ -26,7 +26,7 @@ ndf = df[[
 
 {% endhighlight %}
 
-Now we loop through all years and plot all new permits (permits issued for new buildings) before the given year (colored by year):
+Now we loop through all years and plot all new permits (permits issued for new buildings) before the given year, colored by year:
 
 {% highlight python %}
 
@@ -91,20 +91,23 @@ Converting all images into a single gif using the ImageMagick bash command:
 convert *.png -delay 0 -loop 0 sprawl.gif
 {% endhighlight %}
 
-results in the following:
+and performing some optimizations to reduce the file size, results in the following:
 
-{:.eqcol}
-| [![Visualization](/assets/img/posts/2019-09-14-austin-sprawl/sprawl.gif)](/assets/img/posts/2019-09-14-austin-sprawl/sprawl.gif)  | [![Legend](/assets/img/posts/2019-09-14-austin-sprawl/colorbar.png)](/assets/img/posts/2019-09-14-austin-sprawl/colorbar.png) |
-|:---:|:---:|
-| New permits by year | Colorbar |
+| [![Animation](/assets/img/posts/2019-09-14-austin-sprawl/sprawl_opt.gif)](/assets/img/posts/2019-09-14-austin-sprawl/sprawl_opt.gif) |
+|:---:|
+| *New permits by year* |
 
 We see that Austin's borders have expanded significantly in the last nearly 40 years, commonly referred to as urban sprawl.
 The plots using all permits tells a similar story as the plots using only new permits: below shows plots for all permits in 1981 compared to 2018:
 
-{:.eqcol}
+| [![Visualization](/assets/img/posts/2019-09-14-austin-sprawl/year_comparison.png)](/assets/img/posts/2019-09-14-austin-sprawl/year_comparison.png) |
+|:---:|
+| *All permits issued in 1981 vs. 2018* |
+
+<!-- {:.eqcol}
 | [![Visualization](/assets/img/posts/2019-09-14-austin-sprawl/1981.png)](/assets/img/posts/2019-09-14-austin-sprawl/1981.png)  | [![Legend](/assets/img/posts/2019-09-14-austin-sprawl/2018.png)](/assets/img/posts/2019-09-14-austin-sprawl/2018.png) |
 |:---:|:---:|
-| All permits in 1981 | All permits in 2018 |
+| All permits in 1981 | | All permits in 2018 | -->
 
 The data is all consistent with [this New York Times story][nyt], which shows that Austin is among the worst cities in terms of urban sprawl; between 2010 and 2017 Austin decreased in average neighborhood density by 5% despite growing by nearly 20% over the same time period.
 
