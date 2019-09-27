@@ -10,9 +10,12 @@ tags: [Politics, CFPB]
 *This is the second post in a series focusing on visualizations of Consumer Financial Protection Bureau data. You can see the first installment [here][first-post].*
 
 Here's an interactive bar chart of the CFPB data, showing the 10 most complained-about companies by category.
+You can find the script used to generate the dashboard below [here][script].
+
 I'm including this in a separate post from the previous CFPB post because I couldn't figure out how to show 2 Google Charts dashboards on the same page, if you know how to do that hit me up.
 I'm well aware that there are formatting issues with the dashboards, I'm working on improving them.
 
 {% include interactive/cfpb_bar_dashboard.html %}
 
 [first-post]: {{ site.baseurl }}{% link _posts/2019-09-02-fascist-forge.markdown %}
+[script]: https://raw.githubusercontent.com/trislee/cfpb/master/scripts/generate_bar_dashboard.py
