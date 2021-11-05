@@ -4,7 +4,7 @@ title:  Fascist Forge Scraping
 date:   2019-09-02 03:32:00 +0300
 description: Scraping data from a Nazi forum
 img: posts/2019-09-02-fascist-forge/0052_cover.jpg
-tags: [Anti-fascism, Fascist Forge]
+tags: [Far-right, Extremism, Fascist Forge]
 image_sliders:
   - example_slider
 ---
