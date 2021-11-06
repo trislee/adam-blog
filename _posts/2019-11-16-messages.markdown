@@ -1,0 +1,25 @@
+---
+layout: post
+title:  Message graph visualization
+date:   2019-11-16 16:35:000 +0300
+description: Visualization of network structure of Iron March private messages
+img: posts/2019-11-16-messages/messages_graph.png
+permalink: /messages/
+tags: [Network, Iron March]
+---
+
+This post contains an interactive visualization of the messaging network of the Iron March (IM) forum.
+Each circle (node) represents a unique IM user and each line between circles (edge) represents a conversation between those users.
+The radii of the circles are proportional to the logarithm of the number of posts the user made, and the width of the edges are proportional to the logarithm of the number of messages between the given users.
+For a full screen version of the visualization, click [here][fullscreen].
+
+{% include interactive/message_graph.html %}
+
+The visualization was created using the Python package [HoloViews][holoviews] with the [Bokeh][bokeh] backend, and the graph layout was performed using [Gephi][gephi], with the *Force Atlas 2* algorithm.
+More details about how the visualization was generated, along with accompanying Python scripts and intermediate files, can be found in [my GitHub repository][github-repo].
+
+[fullscreen]: ../assets/interactive/message_graph.html
+[holoviews]: http://holoviews.org/
+[bokeh]: https://docs.bokeh.org/en/latest/
+[gephi]: https://gephi.org/
+[github-repo]: https://github.com/gaius-gracchus/IronMarch
