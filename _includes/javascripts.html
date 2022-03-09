@@ -3,21 +3,21 @@
 <script src="{{site.baseurl}}/assets/js/ideal-image-slider.js"></script>
 <script src="{{site.baseurl}}/assets/js/typeahead.bundle.min.js"></script>
 <script src="{{site.baseurl}}/assets/js/bootstrap.min.js"></script>
+<script src="https://unpkg.com/simple-jekyll-search@1.5.0/dest/simple-jekyll-search.min.js"></script>
 
 <!-- JS -->
 
-<script src="{{site.baseurl}}/assets/js/jekyll-search.js"></script>
 <script>
   SimpleJekyllSearch({
-    searchInput: document.getElementById('search-input'),
+    searchInput: document.getElementById('search-box'),
     resultsContainer: document.getElementById('results-container'),
-    json: '{{site.baseurl}}/search.json',
+    json: '/search.json',
     searchResultTemplate: '<li><a href="{url}" title="{desc}">{title}</a></li>',
     noResultsText: 'No results found',
-    fuzzy: true,
+    limit: 10,
+    fuzzy: false,
     exclude: ['Welcome']
-  });
+  })
 </script>
-<script src="{{site.baseurl}}/assets/js/main.js"></script>
 
 {% include slider_scripts.html %}
