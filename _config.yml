@@ -1,9 +1,7 @@
 title: Tristan Lee
 email: trislee@protonmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Tristan Lee's personal blog for sharing simulations, visualizations, and analyses. My focus areas include right-wing extremism, social network analysis, and high-performance computing.
 permalink: ':title/'
 baseurl: '' # the subpath of your site, e.g. /blog
 url: 'https://trislee.com'
@@ -12,13 +10,13 @@ git_address: https://github.com/trislee
 # Author settings
 author: Tristan Lee # add your name
 author-pic: brill_zone_number17.png
-about-author: My name is Tristan Lee, I'm a computational physicist who's into data science. This is my blog that I use to share simulations, visualizations, and analyses. My focus areas include right-wing extremism, social network analysis, and high-performance computing.
+about-author: My name is Tristan Lee, I'm a data science with a background in computational physics. This is my blog that I use to share simulations, visualizations, and analyses. My focus areas include right-wing extremism, social network analysis, and high-performance computing.
 
 # Contact links
 email: trislee@protonmail.com
 phone: # Add your Phone number
 website: www.trislee.com
-linkedin: tristan-e-lee
+linkedin:
 github: trislee # Add your Github handle
 twitter:  # Add your Twitter handle
 facebook: # Add your Facebook handle
