@@ -10,7 +10,7 @@
         <span class="icon-bar"></span>
       </button>
       <a class="navbar-brand" href="{{ site.baseurl }}/">
-        <span><img src="{{site.baseurl}}/assets/img/logonav.png" alt="Logo"></span> {{ site.title }}
+        <span><img src="{{site.baseurl}}/assets/img/brillouin.svg" alt="Logo"></span> {{ site.title }}
       </a>
     </div>
 
@@ -25,6 +25,8 @@
             href="{{ '/about/' | prepend: site.baseurl }}">About</a></li>
         <li {% if page.sectionid=='datasets' %} class="active" {% endif %}><a
             href="{{ '/datasets/' | prepend: site.baseurl }}">Datasets</a></li>
+          <li {% if page.sectionid=='contact' %} class="active" {% endif %}><a
+            href="{{ '/contact/' | prepend: site.baseurl }}">Contact</a></li>
       </ul>
       <div class="navbar-right">
 

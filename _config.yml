@@ -1,5 +1,5 @@
 title: Tristan Lee
-email: trislee@protonmail.com
+email:
 description: > # this means to ignore newlines until "baseurl:"
   Tristan Lee's personal blog for sharing simulations, visualizations, and analyses. My focus areas include right-wing extremism, social network analysis, and high-performance computing.
 permalink: ':title/'
@@ -9,11 +9,11 @@ git_address: https://github.com/trislee
 
 # Author settings
 author: Tristan Lee # add your name
-author-pic: brill_zone_number17.png
+author-pic: brillouin.svg
 about-author: My name is Tristan Lee, I'm a data science with a background in computational physics. This is my blog that I use to share simulations, visualizations, and analyses. My focus areas include right-wing extremism, social network analysis, and high-performance computing.
 
 # Contact links
-email: trislee@protonmail.com
+email:
 phone: # Add your Phone number
 website: www.trislee.com
 linkedin:
