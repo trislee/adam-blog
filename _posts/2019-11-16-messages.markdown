@@ -3,7 +3,7 @@ layout: post
 title:  Message graph visualization
 date:   2019-11-16 16:35:000 +0300
 description: Visualization of network structure of Iron March private messages
-img: posts/2019-11-16-messages/messages_graph.png
+img: posts/2019-11-16-messages/messages_graph.webp
 permalink: /messages/
 tags: [Network, Iron March]
 ---

@@ -3,7 +3,7 @@ layout: post
 title:  Austin Sprawl
 date:   2019-09-14 21:48:20 +0300
 description: Mapping Austin's urban sprawl using permit data
-img: posts/2019-09-14-austin-sprawl/cover.png
+img: posts/2019-09-14-austin-sprawl/cover.webp
 tags: [Geospatial, Austin]
 ---
 
@@ -100,14 +100,10 @@ and performing some optimizations to reduce the file size, results in the follow
 We see that Austin's borders have expanded significantly in the last nearly 40 years, commonly referred to as urban sprawl.
 The plots using all permits tells a similar story as the plots using only new permits: below shows plots for all permits in 1981 compared to 2018:
 
-| [![Visualization](/assets/img/posts/2019-09-14-austin-sprawl/year_comparison.png)](/assets/img/posts/2019-09-14-austin-sprawl/year_comparison.png) |
+| [![Visualization](/assets/img/posts/2019-09-14-austin-sprawl/year_comparison.webp)](/assets/img/posts/2019-09-14-austin-sprawl/year_comparison.webp) |
 |:---:|
 | *All permits issued in 1981 vs. 2018* |
 
-<!-- {:.eqcol}
-| [![Visualization](/assets/img/posts/2019-09-14-austin-sprawl/1981.png)](/assets/img/posts/2019-09-14-austin-sprawl/1981.png)  | [![Legend](/assets/img/posts/2019-09-14-austin-sprawl/2018.png)](/assets/img/posts/2019-09-14-austin-sprawl/2018.png) |
-|:---:|:---:|
-| All permits in 1981 | | All permits in 2018 | -->
 
 The data is all consistent with [this New York Times story][nyt], which shows that Austin is among the worst cities in terms of urban sprawl; between 2010 and 2017 Austin decreased in average neighborhood density by 5% despite growing by nearly 20% over the same time period.
 

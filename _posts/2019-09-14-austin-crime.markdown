@@ -3,7 +3,7 @@ layout: post
 title:  Austin Crime
 date:   2019-09-14 03:25:20 +0300
 description: Analyzing 16 years of Austin crime data
-img: posts/2019-09-14-austin-crime/datashader_by_category_black.png
+img: posts/2019-09-14-austin-crime/datashader_by_category_black.webp
 tags: [Geospatial, Austin]
 ---
 
@@ -93,7 +93,7 @@ ds.utils.export_image(
   background = 'black')
 {% endhighlight %}
 
-| [![Visualization](/assets/img/posts/2019-09-14-austin-crime/datashader_all_legend.png)](/assets/img/posts/2019-09-14-austin-crime/datashader_all_legend.png)  |
+| [![Visualization](/assets/img/posts/2019-09-14-austin-crime/datashader_all_legend.webp)](/assets/img/posts/2019-09-14-austin-crime/datashader_all_legend.webp)  |
 |:---:|
 | *All crimes* |
 
@@ -132,7 +132,7 @@ ds.utils.export_image(
 
 {% endhighlight %}
 
-| [![Visualization](/assets/img/posts/2019-09-14-austin-crime/datashader_by_category_legend.png)](/assets/img/posts/2019-09-14-austin-crime/datashader_by_category_legend.png)  |
+| [![Visualization](/assets/img/posts/2019-09-14-austin-crime/datashader_by_category_legend.webp)](/assets/img/posts/2019-09-14-austin-crime/datashader_by_category_legend.webp)  |
 |:---:|
 | *Crimes by category* |
 
@@ -177,7 +177,7 @@ and then tile them together using ImageMagick:
 montage code=*.png -tile 3x -geometry +0+0 tile.png
 {% endhighlight %}
 
-| [![Visualization](/assets/img/posts/2019-09-14-austin-crime/tile_legend.png)](/assets/img/posts/2019-09-14-austin-crime/tile_legend.png) |
+| [![Visualization](/assets/img/posts/2019-09-14-austin-crime/tile_legend.webp)](/assets/img/posts/2019-09-14-austin-crime/tile_legend.webp) |
 |:---:|:---:|
 | *Crimes category, separated* |
 

@@ -3,7 +3,7 @@ layout: post
 title:  Fascist Forge Reactions
 date:   2019-09-07 11:50:00 +0300
 description: Analyzing reaction data from a Nazi forum
-img: posts/2019-09-07-fascist-forge-reactions/fascist-forge-reactions_cover.png
+img: posts/2019-09-07-fascist-forge-reactions/fascist-forge-reactions_cover.webp
 tags: [Far-right, Extremism, Fascist Forge]
 ---
 
@@ -13,42 +13,42 @@ Just like how Facebook allows its users to "react" to posts and comments using e
 I've listed them below, and included explanations for the more obscure:
 
 <div>
-  <img style="vertical-align:middle" src="/assets/img/posts/2019-09-07-fascist-forge-reactions/like.png" alt='like' width='100'>
+  <img style="vertical-align:middle" src="/assets/img/posts/2019-09-07-fascist-forge-reactions/like.webp" alt='like' width='100'>
   <span style="">Like</span>
 </div>
 
 <div>
-  <img style="vertical-align:middle" src="/assets/img/posts/2019-09-07-fascist-forge-reactions/gas.png" alt='gas' width='100'>
+  <img style="vertical-align:middle" src="/assets/img/posts/2019-09-07-fascist-forge-reactions/gas.webp" alt='gas' width='100'>
   <span style="">Gas</span>
 </div>
 
 <div>
-  <img style="vertical-align:middle" src="/assets/img/posts/2019-09-07-fascist-forge-reactions/hitler_approves.png" alt='hitler_approves' width='100'>
+  <img style="vertical-align:middle" src="/assets/img/posts/2019-09-07-fascist-forge-reactions/hitler_approves.webp" alt='hitler_approves' width='100'>
   <span style="">Hitler Approves</span>
 </div>
 
 <div>
-  <img style="vertical-align:middle" src="/assets/img/posts/2019-09-07-fascist-forge-reactions/mason_1.png" alt='mason_1' width='100'>
+  <img style="vertical-align:middle" src="/assets/img/posts/2019-09-07-fascist-forge-reactions/mason_1.webp" alt='mason_1' width='100'>
   <span style="">Mason +1 (James Mason, author of SIEGE)</span>
 </div>
 
 <div>
-  <img style="vertical-align:middle" src="/assets/img/posts/2019-09-07-fascist-forge-reactions/rockwell_salute.png" alt='rockwell_salute' width='100'>
+  <img style="vertical-align:middle" src="/assets/img/posts/2019-09-07-fascist-forge-reactions/rockwell_salute.webp" alt='rockwell_salute' width='100'>
   <span style="">Rockwell Salute (George Lincoln Rockwell, founder of American Nazi Party)</span>
 </div>
 
 <div>
-  <img style="vertical-align:middle" src="/assets/img/posts/2019-09-07-fascist-forge-reactions/shlomo.png" alt='shlomo' width='100'>
+  <img style="vertical-align:middle" src="/assets/img/posts/2019-09-07-fascist-forge-reactions/shlomo.webp" alt='shlomo' width='100'>
   <span style="">Shlomo</span>
 </div>
 
 <div>
-  <img style="vertical-align:middle" src="/assets/img/posts/2019-09-07-fascist-forge-reactions/sneaky_nazi.png" alt='sneaky_nazi' width='100'>
+  <img style="vertical-align:middle" src="/assets/img/posts/2019-09-07-fascist-forge-reactions/sneaky_nazi.webp" alt='sneaky_nazi' width='100'>
   <span style="">Sneaky Nazi</span>
 </div>
 
 <div>
-  <img style="vertical-align:middle" src="/assets/img/posts/2019-09-07-fascist-forge-reactions/anti-fascist.png" alt='anti-fascist' width='100'>
+  <img style="vertical-align:middle" src="/assets/img/posts/2019-09-07-fascist-forge-reactions/anti-fascist.webp" alt='anti-fascist' width='100'>
   <span style="">Anti-Fascist</span>
 </div>
 

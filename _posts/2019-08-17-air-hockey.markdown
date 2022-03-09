@@ -3,7 +3,7 @@ layout: post
 title: Air Hockey Phase Space
 date: 2019-08-17 01:47:20 -0600
 description: Simulation and analysis of the win probability for an air hockey table
-img:  posts/2019-08-17-air-hockey/cover.png
+img:  posts/2019-08-17-air-hockey/cover.webp
 tags: [Geometry, Chaos]
 ---
 <img align="right" width="250" src="/assets/img/posts/2019-08-17-air-hockey/air_hockey_diagram.svg">
@@ -64,7 +64,7 @@ which can be solved for the intercepts at $$x=0$$, $$x=s_y$$, $$y=0$$, or $$y=s_
 \end{algorithm}
 " %}
 
-<img align="right" src="/assets/img/posts/2019-08-17-air-hockey/air_hockey_animation.gif" width="300">
+<img align="right" src="/assets/img/posts/2019-08-17-air-hockey/air_hockey_animation.webp" width="300">
 
 The animation to the left shows the paths a puck takes for a series of angles, when its initial location is the center of the table. Small changes in $$\theta$$ can result in significant changes to the end state of the puck, as evidenced by the rapidly changing lines. This sensitive dependence on initial conditions is a hallmark of chaotic systems and suggests that the behavior or the air hockey table system is more complicated than its simple geometry suggests. In practical terms, that means that we can probably use this system to generate some cool looking plots!
 
@@ -111,13 +111,7 @@ The goal width $$w$$ is an important parameter for the system. On one extreme wi
 
 The video below shows the *bounceScore* at all locations, averaged over all angles, as $$w$$ loops between 0 and $$s_x$$, i.e. each pixel represents a particular location on the table. I rotated the table by 90 degrees because it fit better on the page that way. The color indicates which of the two goals the puck is likeliest to end up in, with blue indicating your goal, and red indicating your opponent's goal. For visualization purposes, I raised the bounceScore to the power of 0.25 to increase the contrast, but that doesn't affect the underlying pattern of blue and red regions.
 
-<div class="myvideo">
-   <video  style="display:block; width:100%; height:auto;" autoplay controls loop="loop">
-       <source src="/assets/img/posts/2019-08-17-air-hockey/average_bouncescore.mp4" type="video/mp4" />
-       <source src="/assets/img/posts/2019-08-17-air-hockey/average_bouncescore.ogv" type="video/ogg" />
-       <source src="/assets/img/posts/2019-08-17-air-hockey/average_bouncescore.webm"  type="video/webm"  />
-   </video>
-</div>
+<img align="right" src="/assets/img/posts/2019-08-17-air-hockey/average_bouncescore.webp" width="100%">
 
 The phase space of the air hockey table is 5 dimensional ($$x_0, y_0, \theta_0, \frac{w}{s_x}, \frac{s_y}{s_x} $$), so visualizing its entirety on a 2D computer screen is impossible. The best we can do is visualizing selected 2D or 3D slices and animating an additional dimension. The above video can be thought of as a sum over the $$\theta$$ dimension and an animation over the $$\frac{w}{s_x}$$ dimension, with $$\frac{s_y}{s_x}$$ held constant.
 
@@ -125,8 +119,6 @@ The video below shows three different views of a phase space slice with the $$\f
 
 <div class="myvideo">
    <video  style="display:block; width:100%; height:auto;" autoplay controls loop="loop">
-       <source src="/assets/img/posts/2019-08-17-air-hockey/slice_plot.mp4" type="video/mp4" />
-       <source src="/assets/img/posts/2019-08-17-air-hockey/slice_plot.ogv" type="video/ogg" />
        <source src="/assets/img/posts/2019-08-17-air-hockey/slice_plot.webm"  type="video/webm"  />
    </video>
 </div>
